@@ -1,0 +1,22 @@
+platform :ios, '16.0'
+use_frameworks!
+
+target 'tiktok-clone' do
+
+pod 'Appirater'
+pod 'SDWebImage'
+pod 'ProgressHUD'
+
+# Firebase 
+
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+
+
+
+end
