@@ -30,6 +30,7 @@ extension UIView {
 }
 
 extension DateFormatter {
+    // DateFormatter is a global UI Object  with certain value sets 
     static let defaultFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.timeZone = .current
@@ -42,6 +43,7 @@ extension DateFormatter {
 
 extension String {
     static func date(with date: Date) -> String {
+        // convert date to string with string(from: date)
         return DateFormatter.defaultFormatter.string(from: date)
     }
 }

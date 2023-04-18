@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C24697E03FA1743C2BF440D /* Pods_tiktok_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208854DFA5F8054F6CD11509 /* Pods_tiktok_clone.framework */; };
+		5D078DEC29DD505A00611556 /* videoPost.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5D078DEB29DD505A00611556 /* videoPost.mp4 */; };
+		5D22999F29EB9704007938AD /* ExploreSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D22999E29EB9704007938AD /* ExploreSection.swift */; };
+		5D2299A129EBA49D007938AD /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2299A029EBA49D007938AD /* ExploreCell.swift */; };
+		5D2299A329EBA573007938AD /* ExploreSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2299A229EBA573007938AD /* ExploreSectionType.swift */; };
 		5D5A7CDE29CFF0E600CF20EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7CDD29CFF0E600CF20EB /* AppDelegate.swift */; };
 		5D5A7CE029CFF0E600CF20EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7CDF29CFF0E600CF20EB /* SceneDelegate.swift */; };
 		5D5A7CE729CFF0E800CF20EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A7CE629CFF0E800CF20EB /* Assets.xcassets */; };
@@ -28,17 +32,29 @@
 		5D5A7D1B29D020CE00CF20EB /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D1A29D020CE00CF20EB /* RecordButton.swift */; };
 		5D5A7D1D29D0212B00CF20EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D1C29D0212B00CF20EB /* Extensions.swift */; };
 		5D5A7D2129D023F600CF20EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2029D023F600CF20EB /* TabBarViewController.swift */; };
-		5D5A7D2329D0246300CF20EB /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2229D0246300CF20EB /* APICaller.swift */; };
 		5D5A7D2629D024B400CF20EB /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2529D024B400CF20EB /* StorageManager.swift */; };
 		5D5A7D2829D0258600CF20EB /* DatabaseManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2729D0258600CF20EB /* DatabaseManager .swift */; };
 		5D5A7D2A29D025C700CF20EB /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2929D025C700CF20EB /* AuthManager.swift */; };
 		5D5A7D2C29D025F100CF20EB /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2B29D025F100CF20EB /* HapticsManager.swift */; };
 		5D5A7D2E29D0262500CF20EB /* ExploreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A7D2D29D0262500CF20EB /* ExploreManager.swift */; };
+		5D791D3B29DAA75B00D7C20B /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D791D3A29DAA75B00D7C20B /* CommentsTableViewCell.swift */; };
+		5D791D3E29DAA81800D7C20B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D791D3D29DAA81800D7C20B /* Constants.swift */; };
+		5DBF6FF729ECBD6900465750 /* ExploreBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF6FF629ECBD6900465750 /* ExploreBannerViewModel.swift */; };
+		5DBF6FF929ECBDE800465750 /* ExplorePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF6FF829ECBDE800465750 /* ExplorePostViewModel.swift */; };
+		5DBF6FFB29ECBE8600465750 /* ExploreHashtagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF6FFA29ECBE8600465750 /* ExploreHashtagViewModel.swift */; };
+		5DBF6FFD29ECCA0B00465750 /* ExploreUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBF6FFC29ECCA0B00465750 /* ExploreUserViewModel.swift */; };
 		5DDFAC9129D0D87500D26540 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFAC9029D0D87500D26540 /* GoogleService-Info.plist */; };
+		5DDFAC9529D12C0000D26540 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFAC9429D12C0000D26540 /* PostModel.swift */; };
+		5DFFB64329DBB99500DACDB8 /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFB64229DBB99500DACDB8 /* PostComment.swift */; };
+		5DFFB64529DBD45900DACDB8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFB64429DBD45900DACDB8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		208854DFA5F8054F6CD11509 /* Pods_tiktok_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tiktok_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D078DEB29DD505A00611556 /* videoPost.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoPost.mp4; sourceTree = "<group>"; };
+		5D22999E29EB9704007938AD /* ExploreSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSection.swift; sourceTree = "<group>"; };
+		5D2299A029EBA49D007938AD /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		5D2299A229EBA573007938AD /* ExploreSectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSectionType.swift; sourceTree = "<group>"; };
 		5D5A7CDA29CFF0E600CF20EB /* tiktok-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tiktok-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5A7CDD29CFF0E600CF20EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D5A7CDF29CFF0E600CF20EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,13 +77,21 @@
 		5D5A7D1A29D020CE00CF20EB /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		5D5A7D1C29D0212B00CF20EB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5D5A7D2029D023F600CF20EB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		5D5A7D2229D0246300CF20EB /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		5D5A7D2529D024B400CF20EB /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		5D5A7D2729D0258600CF20EB /* DatabaseManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DatabaseManager .swift"; sourceTree = "<group>"; };
 		5D5A7D2929D025C700CF20EB /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		5D5A7D2B29D025F100CF20EB /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		5D5A7D2D29D0262500CF20EB /* ExploreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreManager.swift; sourceTree = "<group>"; };
+		5D791D3A29DAA75B00D7C20B /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		5D791D3D29DAA81800D7C20B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DBF6FF629ECBD6900465750 /* ExploreBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBannerViewModel.swift; sourceTree = "<group>"; };
+		5DBF6FF829ECBDE800465750 /* ExplorePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePostViewModel.swift; sourceTree = "<group>"; };
+		5DBF6FFA29ECBE8600465750 /* ExploreHashtagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreHashtagViewModel.swift; sourceTree = "<group>"; };
+		5DBF6FFC29ECCA0B00465750 /* ExploreUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreUserViewModel.swift; sourceTree = "<group>"; };
 		5DDFAC9029D0D87500D26540 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DDFAC9429D12C0000D26540 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		5DFFB64229DBB99500DACDB8 /* PostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostComment.swift; sourceTree = "<group>"; };
+		5DFFB64429DBD45900DACDB8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		661D37812AEFC9B0E7478640 /* Pods-tiktok-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiktok-clone.release.xcconfig"; path = "Target Support Files/Pods-tiktok-clone/Pods-tiktok-clone.release.xcconfig"; sourceTree = "<group>"; };
 		B92FC19DB71842B0D816484B /* Pods-tiktok-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiktok-clone.debug.xcconfig"; path = "Target Support Files/Pods-tiktok-clone/Pods-tiktok-clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,11 +160,13 @@
 		5D5A7CF229D01A1A00CF20EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D078DEB29DD505A00611556 /* videoPost.mp4 */,
 				5DDFAC9029D0D87500D26540 /* GoogleService-Info.plist */,
 				5D5A7CE629CFF0E800CF20EB /* Assets.xcassets */,
 				5D5A7CDD29CFF0E600CF20EB /* AppDelegate.swift */,
 				5D5A7CDF29CFF0E600CF20EB /* SceneDelegate.swift */,
 				5D5A7D1C29D0212B00CF20EB /* Extensions.swift */,
+				5D791D3D29DAA81800D7C20B /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -148,6 +174,7 @@
 		5D5A7CF329D01A3700CF20EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D791D3C29DAA76300D7C20B /* Cells */,
 				5D5A7D1929D0202000CF20EB /* Storyboards */,
 				5D5A7CF529D01A9400CF20EB /*  Other */,
 			);
@@ -157,6 +184,12 @@
 		5D5A7CF429D01A4300CF20EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5DDFAC9429D12C0000D26540 /* PostModel.swift */,
+				5D2299A029EBA49D007938AD /* ExploreCell.swift */,
+				5DFFB64429DBD45900DACDB8 /* User.swift */,
+				5DFFB64229DBB99500DACDB8 /* PostComment.swift */,
+				5D22999E29EB9704007938AD /* ExploreSection.swift */,
+				5D2299A229EBA573007938AD /* ExploreSectionType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,6 +281,10 @@
 		5D5A7D1E29D0226B00CF20EB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5DBF6FF629ECBD6900465750 /* ExploreBannerViewModel.swift */,
+				5DBF6FF829ECBDE800465750 /* ExplorePostViewModel.swift */,
+				5DBF6FFA29ECBE8600465750 /* ExploreHashtagViewModel.swift */,
+				5DBF6FFC29ECCA0B00465750 /* ExploreUserViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -255,7 +292,6 @@
 		5D5A7D1F29D0228800CF20EB /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				5D5A7D2229D0246300CF20EB /* APICaller.swift */,
 				5D5A7D2529D024B400CF20EB /* StorageManager.swift */,
 				5D5A7D2729D0258600CF20EB /* DatabaseManager .swift */,
 				5D5A7D2929D025C700CF20EB /* AuthManager.swift */,
@@ -263,6 +299,14 @@
 				5D5A7D2D29D0262500CF20EB /* ExploreManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		5D791D3C29DAA76300D7C20B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D791D3A29DAA75B00D7C20B /* CommentsTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		7D45973946A82EED8440F9C1 /* Pods */ = {
@@ -336,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D5A7CEA29CFF0E800CF20EB /* LaunchScreen.storyboard in Resources */,
+				5D078DEC29DD505A00611556 /* videoPost.mp4 in Resources */,
 				5D5A7CE729CFF0E800CF20EB /* Assets.xcassets in Resources */,
 				5DDFAC9129D0D87500D26540 /* GoogleService-Info.plist in Resources */,
 			);
@@ -407,30 +452,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2299A329EBA573007938AD /* ExploreSectionType.swift in Sources */,
 				5D5A7D0B29D01E5200CF20EB /* PostViewController.swift in Sources */,
+				5DBF6FF929ECBDE800465750 /* ExplorePostViewModel.swift in Sources */,
+				5DBF6FFB29ECBE8600465750 /* ExploreHashtagViewModel.swift in Sources */,
+				5DDFAC9529D12C0000D26540 /* PostModel.swift in Sources */,
 				5D5A7D0D29D01E8000CF20EB /* CommentsViewController.swift in Sources */,
 				5D5A7D1B29D020CE00CF20EB /* RecordButton.swift in Sources */,
 				5D5A7CDE29CFF0E600CF20EB /* AppDelegate.swift in Sources */,
+				5D2299A129EBA49D007938AD /* ExploreCell.swift in Sources */,
 				5D5A7D2829D0258600CF20EB /* DatabaseManager .swift in Sources */,
 				5D5A7D0929D01E3100CF20EB /* SettingsViewController.swift in Sources */,
+				5D791D3E29DAA81800D7C20B /* Constants.swift in Sources */,
 				5D5A7D1529D01F3600CF20EB /* SignUpViewController.swift in Sources */,
 				5D5A7D1D29D0212B00CF20EB /* Extensions.swift in Sources */,
 				5D5A7D2629D024B400CF20EB /* StorageManager.swift in Sources */,
 				5D5A7D2E29D0262500CF20EB /* ExploreManager.swift in Sources */,
-				5D5A7D2329D0246300CF20EB /* APICaller.swift in Sources */,
 				5D5A7D0F29D01EAC00CF20EB /* CaptionViewController.swift in Sources */,
 				5D5A7CFF29D01CF900CF20EB /* ExploreViewController.swift in Sources */,
 				5D5A7CFD29D01CC800CF20EB /* ProfileViewController.swift in Sources */,
 				5D5A7D2129D023F600CF20EB /* TabBarViewController.swift in Sources */,
+				5DFFB64529DBD45900DACDB8 /* User.swift in Sources */,
 				5D5A7D1129D01ED600CF20EB /* EditProfileViewController.swift in Sources */,
 				5D5A7D0729D01E1600CF20EB /* UserListViewController.swift in Sources */,
 				5D5A7D0129D01D2D00CF20EB /* CameraViewController.swift in Sources */,
 				5D5A7D1329D01F1100CF20EB /* SignInViewController.swift in Sources */,
+				5DBF6FFD29ECCA0B00465750 /* ExploreUserViewModel.swift in Sources */,
 				5D5A7CE029CFF0E600CF20EB /* SceneDelegate.swift in Sources */,
+				5DBF6FF729ECBD6900465750 /* ExploreBannerViewModel.swift in Sources */,
 				5D5A7D2A29D025C700CF20EB /* AuthManager.swift in Sources */,
 				5D5A7D2C29D025F100CF20EB /* HapticsManager.swift in Sources */,
+				5D791D3B29DAA75B00D7C20B /* CommentsTableViewCell.swift in Sources */,
 				5D5A7CFB29D01B9800CF20EB /* HomeViewController.swift in Sources */,
 				5D5A7D0329D01D6500CF20EB /* NotificationsViewController.swift in Sources */,
+				5DFFB64329DBB99500DACDB8 /* PostComment.swift in Sources */,
+				5D22999F29EB9704007938AD /* ExploreSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
